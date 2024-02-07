@@ -1,8 +1,8 @@
 {
   "name": "3dfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
-  "homepage": "https://parthpar-usc.github.io/New-Portfolio",
+  "homepage": "",
   "type": "module",
   "scripts": {
     "dev": "vite",
