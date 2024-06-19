@@ -17,20 +17,18 @@ import {
   ebay,
   git,
   angular,
-  figma,
   python3,
   sql,
-  docker,
-  meta,
   elms,
   MSU,
-  meditab,
+  Panda,
   starbucks,
   tesla,
   shopify,
   airbnb,
   jobit,
   tripguide,
+  logo2
 } from "../assets";
 
 export const navLinks = [
@@ -129,10 +127,10 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
-    company_name: "Meditab Software INC",
-    icon: meditab,
+    company_name: "Panda Infosoft",
+    icon: Panda,
     iconBg: "#FFFFFF",
-    date: "October 2022 - May 2023",
+    date: "July 2022 - June 2023",
     points: [
       "Engineered responsive frontend views using Angular 11, achieving a flawless 100% responsiveness score.",
       "Enhanced document viewing capabilities by seamlessly integrating the ngx-extended-pdf-viewer library into the web application.",
@@ -145,7 +143,7 @@ const experiences = [
     company_name: "MSU Information Technology Labs",
     icon: MSU,
     iconBg: "#E6DEDD",
-    date: "January 2022 - August 2022",
+    date: "January 2022 - June 2022",
     points: [
       "Developed Ph.D. portal with user authentication for different types of users, frontend in AngularJS, backend in C#, Integrated multiple institutes\' Ph.D. programs, built comprehensive database in Microsoft SQL server",
       "Automated departmental and institute-wise reporting leveraging alaSQL and JavaScript, reducing manual report creation time by 40% for data-driven decisions.",

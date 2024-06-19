@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo2 from "./logo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,7 +28,7 @@ import python3 from "./tech/python3.png";
 import threejs from "./tech/threejs.svg";
 import iOS from "./tech/iOS.png";
 import meta from "./company/meta.png";
-import meditab from "./company/meditab.png";
+import Panda from "./company/panda_infosoft.png";
 import MSU from "./company/MSU.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -41,8 +41,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  meditab,
+  logo2,
   backend,
   creator,
   mobile,
@@ -79,4 +78,5 @@ export {
   python3,
   sql,
   cpp,
+  Panda,
 };
