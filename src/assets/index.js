@@ -37,10 +37,14 @@ import tesla from "./company/tesla.png";
 import airbnb from "./airbnb.png";
 import ebay from "./ebay.png";
 import elms from "./elms.png";
+import FintrackPro from "./FintrackPro.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import MBTI from "./MBTI.png"
+import redvest from "./redvest.png"
 export {
+  redvest,
+  MBTI,
   logo2,
   backend,
   creator,
@@ -79,4 +83,5 @@ export {
   sql,
   cpp,
   Panda,
+  FintrackPro,
 };

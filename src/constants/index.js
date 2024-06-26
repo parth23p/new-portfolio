@@ -28,7 +28,10 @@ import {
   airbnb,
   jobit,
   tripguide,
-  logo2
+  logo2,
+  FintrackPro,
+  MBTI,
+  redvest,
 } from "../assets";
 
 export const navLinks = [
@@ -126,6 +129,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company_name: "Redvest",
+    icon: redvest,
+    iconBg: "#E6DEDD",
+    date: "June 2024 - Augst 2024",
+    points: [
+      "Built product checkout page in React.", 
+      "Integrated Stripe payment webhook for the products checkout.",
+      "Deployed and designed database in firebase."
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Panda Infosoft",
     icon: Panda,
@@ -182,35 +197,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+     "Parth significantly improved operational efficiency by automating reports and enhancing user authentication, reducing manual effort by 40%.",
+    name: "Rushil Choksi",
+    designation: "Co-Founder",
+    company: "técrave",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a Software Engineer who truly cares about their clients' success like Parth does.",
+    name: "Pranav Patel",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Panda Infosoft",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Parth optimized our website, our traffic increased by 50%. We can't thank him enough!",
+    name: "Anya Ozmen",
+    designation: "Tech Lead",
+    company: "Redvest",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Airbnb",
+    name: "Rental Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The core functionality includes a responsive Next.js frontend for improved rendering, a location-based search with calendar integration and group customization, RESTful APIs for dynamic hotel details and images, and a 'My Airbnb' feature for users to manage listings as hosts.",
     tags: [
       {
         name: "react",
@@ -234,9 +249,9 @@ const projects = [
     source_code_link: "https://airbnb-new-xi.vercel.app/",
   },
   {
-    name: "ebay iOS App",
+    name: "E-Commerce iOS App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an iOS app using SwiftUI and NodeJS/ExpressJS for real-time eBay API integration, deployed on GCP for scalability. Implemented robust user interactions, Facebook integration, and advanced features like Zip Code autocomplete and swipe-to-delete in favorites.",
     tags: [
       {
         name: "swiftUI",
@@ -266,22 +281,47 @@ const projects = [
     source_code_link: "https://drive.google.com/file/d/18UImGyDuaBFzMi5i_DnWk1ltsTrkco-h/view?pli=1",
   },
   {
-    name: "Employee Leave Management System",
+    name: "Fintrack Pro",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+     "Built a Finance SaaS Platform with Next.js, enhancing income/expense tracking and boosting user engagement by 40%. Implemented CSV import, customizable dashboard features, and secure transactions with Clerk authentication, Hono.js API, PostgreSQL, and Drizzle ORM for optimized performance.",
     tags: [
       {
-        name: "HTML/CSS/Javascript",
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "DrizzleORM",
+        color: "pink-text-gradient",
+      },
+      // {
+      //   name: "HonoJS",
+      //   color: "orange-text-gradient",
+      // },
+    ],
+    image: FintrackPro,
+    source_code_link: "https://drive.google.com/file/d/1788VSva1CjXkfWftOr-5fzQFMzijZsa6/view?usp=sharing",
+  },
+  {
+    name: "Employee Leave Management System",
+    description:
+     "Implemented user and admin roles with authentication in a web app, enabling streamlined leave applications with defined days and reasons. Revolutionized leave management system with administrative capabilities, reducing maintenance and improving efficiency by 90%.",
+    tags: [
+      {
+        name: "HTML/CSS/JS",
         color: "blue-text-gradient",
       },
       {
         name: ".NET(c#)",
         color: "green-text-gradient",
       },
-      {
-        name: "WebAPI",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "WebAPI",
+      //   color: "pink-text-gradient",
+      // },
       {
         name: "MSSQL Server",
         color: "orange-text-gradient",
@@ -290,6 +330,32 @@ const projects = [
     image: elms,
     source_code_link: "https://github.com/parth23p/EmployeeLeaveManagementSystem",
   },
+  {
+    name: "Domain Expansion",
+    description:
+    "PEM as Building Blocks for Composite Generative Tasks:Created synthetic data to identify MBTI personality traits using self-engineered prompts on LLMs, trained PEM adapters for text generation and zero-shot classification on individual traits, and evaluated results through human assessments and MBTI tests.",
+    tags: [
+      {
+        name: "LLM Finetuning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gen AI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PEFT/LoRA/IA3",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: MBTI,
+    source_code_link: "https://docs.google.com/presentation/d/1qBNrpdaQ1QvnZsPkq3Bt0whAF_JyPgMrKQE9ywLShoQ/edit?usp=sharing",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
