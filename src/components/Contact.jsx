@@ -16,6 +16,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  let finalMessage=""
 
   const handleChange = (e) => {
     const { target } = e;
@@ -30,7 +31,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    finalMessage="sender:"+form.email+" "+"message:"+form.message;
     emailjs
       .send(
         "service_pvoohfe",
@@ -40,7 +41,7 @@ const Contact = () => {
           to_name: "Parth's Portfolio",
           from_email: form.email,
           to_email: "parth23p@gmail.com",
-          message: form.message,
+          message: finalMessage ,
         },
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
         "BR5IookKzGiAjtA-G"
@@ -55,6 +56,7 @@ const Contact = () => {
             email: "",
             message: "",
           });
+          finalMessage="";
         },
         (error) => {
           setLoading(false);

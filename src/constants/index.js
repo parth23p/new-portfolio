@@ -306,7 +306,7 @@ const projects = [
     source_code_link: "https://drive.google.com/file/d/1788VSva1CjXkfWftOr-5fzQFMzijZsa6/view?usp=sharing",
   },
   {
-    name: "Employee Leave Management System",
+    name: "LeaveTrack",
     description:
      "Implemented user and admin roles with authentication in a web app, enabling streamlined leave applications with defined days and reasons. Revolutionized leave management system with administrative capabilities, reducing maintenance and improving efficiency by 90%.",
     tags: [
@@ -332,8 +332,8 @@ const projects = [
   },
   {
     name: "Domain Expansion",
-    description:
-    "PEM as Building Blocks for Composite Generative Tasks:Created synthetic data to identify MBTI personality traits using self-engineered prompts on LLMs, trained PEM adapters for text generation and zero-shot classification on individual traits, and evaluated results through human assessments and MBTI tests.",
+    description:"Developed synthetic data to identify MBTI traits using LLM prompts, trained PEM adapters for text generation and classification, and evaluated with human assessments and MBTI tests.",
+    // "PEM as Building Blocks for Composite Generative Tasks:Created synthetic data to identify MBTI personality traits using self-engineered prompts on LLMs, trained PEM adapters for text generation and zero-shot classification on individual traits, and evaluated results through human assessments and MBTI tests.",
     tags: [
       {
         name: "LLM Finetuning",
