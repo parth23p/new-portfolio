@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Redvest",
     icon: redvest,
     iconBg: "#E6DEDD",
-    date: "June 2024 - Augst 2024",
+    date: "June 2024 - August 2024",
     points: [
       "Built product checkout page in React.", 
       "Integrated Stripe payment webhook for the products checkout.",
