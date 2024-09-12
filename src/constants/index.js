@@ -135,9 +135,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
-      "Built product checkout page in React.", 
-      "Integrated Stripe payment webhook for the products checkout.",
-      "Deployed and designed database in firebase."
+      "Crafted Different componenets for Dashborad of the web-app using ReactJS and TailwindCSS.", 
+      "Configured, setted-up and integrated Stripe payment webhook for the products checkout.",
+      "Built product checkout page in React."
     ],
   },
   {
@@ -147,7 +147,7 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "July 2022 - June 2023",
     points: [
-      "Engineered responsive frontend views using Angular 11, achieving a flawless 100% responsiveness score.",
+      "Engineered responsive frontend views using Angular, achieving a flawless 100% responsiveness score.",
       "Enhanced document viewing capabilities by seamlessly integrating the ngx-extended-pdf-viewer library into the web application.",
       "Mitigated a critical parsing bug, reducing application crashes by 25% and boosting user satisfaction by 15%.",
       "Collaborated with senior engineers to enhance CX for 10,000+ customers, showcasing dedication to user satisfaction and loyalty.",
@@ -213,7 +213,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Parth optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      "After Parth optimized our website, user satisfaction rate increased by 12%. We can't thank him enough!",
     name: "Anya Ozmen",
     designation: "Tech Lead",
     company: "Redvest",
