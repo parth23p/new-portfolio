@@ -135,9 +135,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
-      "Crafted Different componenets for Dashborad of the web-app using ReactJS and TailwindCSS.", 
-      "Configured, setted-up and integrated Stripe payment webhook for the products checkout.",
-      "Built product checkout page in React."
+      "Built and deployed secure Django web app on GCP, enhancing scalability and achieving a 10% faster load time",
+      "Crafted responsive front-end using ReactJS, Tailwind CSS, ChartJS, enhancing UX and optimizing deployment",
+      "Integrated Stripe payment webhook and designed React based dashboard components, streamlining checkout process by 15% and enhancing transaction reliability",
     ],
   },
   {
