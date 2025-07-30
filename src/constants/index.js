@@ -32,6 +32,8 @@ import {
   FintrackPro,
   MBTI,
   redvest,
+  amazon,
+  codeSnap,
 } from "../assets";
 
 export const navLinks = [
@@ -129,6 +131,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Dev Engineer",
+    company_name: "Amazon",
+    icon: amazon,
+    iconBg: "#FFFFFF",
+    date: "June 2025 - Present",
+    points: [
+      "Contributing to the Region Flex project, enabling migration of AWS resources across regions to ensure service continuity",
+      "Worked with Balance Account Subledger Management services to ensure accurate transaction handling and correct financial data storage in DynamoDB",
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Redvest",
     icon: redvest,
@@ -222,6 +235,30 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "codeSnap",
+    description:" Built an AI-powered code analysis platform using C++ and FastAPI, integrating GitHub for automated repository scanning, Leveraged Llama 7B model for real-time vulnerability detection and insight generation, Used Supabase for secure authentication, scalable data storage, and API-driven frontend integration",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FastAPI (python)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GenAI (Llama 7B)",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: codeSnap,
+    // source_code_link: "https://docs.google.com/presentation/d/1qBNrpdaQ1QvnZsPkq3Bt0whAF_JyPgMrKQE9ywLShoQ/edit?usp=sharing",
+  },
   {
     name: "Rental Management",
     description:

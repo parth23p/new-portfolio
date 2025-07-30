@@ -42,7 +42,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import MBTI from "./MBTI.png"
 import redvest from "./redvest.png"
+import amazon from "./amazon.png"
+import codeSnap from "./CodeSnap.png"
 export {
+  codeSnap,
+  amazon,
   redvest,
   MBTI,
   logo2,
